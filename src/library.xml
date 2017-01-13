@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!--<!DOCTYPE library SYSTEM "libraryDTD.dtd">-->
+
+<library librarian="Nour" location="nasr city-cairo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation = "librarySchema.xsd">
+    <description><![CDATA["this library has 2 books"]]></description>
+    <book title="ABC" author="Khaled Hussein" ISBN="b111">
+        <preface/>
+        <part title="First Part">
+            <chapter title="Introduction">
+                <summary>this is an intro.</summary>
+                <section>
+                    <paragraph>Hello XML</paragraph>
+                    <paragraph>My Name is Nour</paragraph>
+                </section>
+            </chapter>
+        </part>
+        <part title="Second Part">
+            <chapter title="Body">
+                <summary>this is the body.</summary>
+                <section>
+                    <paragraph>English paragraph</paragraph>
+                    <paragraph>i am in Jets</paragraph>
+                </section>
+            </chapter>
+        </part>
+    </book>
+    <book title="Java" author="ITI" ISBN="b22">
+        <!--<preface>&pref;</preface>-->
+        <preface>empty preference</preface>
+        <part title="First Part">
+            <chapter title="Introduction">
+                <summary>this is an intro.</summary>
+                <section>
+                    <paragraph>Hello XML</paragraph>
+                    <paragraph>OOP</paragraph>
+                </section>
+                <section>
+                    <paragraph>Java Interface</paragraph>
+                    <paragraph>Java Class</paragraph>
+                </section>
+            </chapter>
+            <chapter title="Conclusion">
+                <summary>this is a conclusion.</summary>
+                <section>
+                    <paragraph>NetBeans</paragraph>
+                    <paragraph>Build Project</paragraph>
+                </section>
+                <section>
+                    <paragraph>Bye</paragraph>
+                </section>
+            </chapter>
+        </part>
+    </book>
+</library>
